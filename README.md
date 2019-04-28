@@ -1,2 +1,12 @@
-# Cacst
-data transmission interface based on libcurl
+### 项目简介
+公司项目中自己编写的小程序，用于平板和服务器之间的数据的传输，由于项目要求不能联网，所以该程序需要在访问内网服务器的客户机上部署，平板通过usb连接该客户机，通过浏览器的自定义URL Protocol来调用改程序，实现平板和服务器的数据交互。该程序通过libcurl来实现与服务器的交互，通过adb.exe来实现与平板的交互。
+
+### 目录结构
+
+- deployment：实际需要部署在客户机的文件，默认放在C盘根目录。
+  - Cacst\Cacst.reg：为该程序在注册表内注册，使得自定义URL Protocol可以调用该程序。
+- curllib：编译需要的libcurl函数库文件。
+- Cacst：该程序源代码文件，编译工具是codeblocks。
+
+
+

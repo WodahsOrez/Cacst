@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1556417702 source:d:\codeblocks-workspace\cacst\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"curl.h"
+	<windows.h>
+	<string>
+	<direct.h>
+	<cstdio>
+	<io.h>
+	<vector>
+	<iostream>
+	<sstream>
+
+1531096932 d:\codeblocks-workspace\curllib\include\curl\curl.h
+	"curlver.h"
+	"system.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1531267216 d:\codeblocks-workspace\curllib\include\curl\curlver.h
+
+1531096932 d:\codeblocks-workspace\curllib\include\curl\system.h
+	<winsock2.h>
+	<windows.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1512232400 d:\codeblocks-workspace\curllib\include\curl\easy.h
+
+1528965084 d:\codeblocks-workspace\curllib\include\curl\multi.h
+	"curl.h"
+
+1531096932 d:\codeblocks-workspace\curllib\include\curl\typecheck-gcc.h
+

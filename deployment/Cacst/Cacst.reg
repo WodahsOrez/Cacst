@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\Cacst]
+"URL Protocol"="C:\\Cacst\\Cacst.exe"
+@="CacstProtocol"
+[HKEY_CLASSES_ROOT\Cacst\DefaultIcon]
+@="C:\\Cacst\\Cacst.exe,1"
+[HKEY_CLASSES_ROOT\Cacst\shell]
+[HKEY_CLASSES_ROOT\Cacst\shell\open]
+[HKEY_CLASSES_ROOT\Cacst\shell\open\command]
+@="\"C:\\Cacst\\Cacst.exe\" \"%1\""
